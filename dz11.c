@@ -17,6 +17,7 @@ struct Motorcycle {
 
 int main() {
     setlocale(LC_ALL, ".UTF-8");
+    printf("Вариант 20. Запись «Мотоцикл»\n\n");
 
     struct Motorcycle m1, m2, m3, m, temp;
     for (int i = 1; i <= 3; i++) {
